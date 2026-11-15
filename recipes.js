@@ -3,7 +3,7 @@ window.RECIPES = [
   {
     id: "creamy-tomato-pasta", name: "奶油番茄義大利麵", english: "Creamy Tomato Pasta",
     category: "主食", time: 25, difficulty: "簡單", servings: 2, badge: "人氣推薦",
-    image: "creamy-tomato-pasta.jpg",
+    image: "https://unsplash.com/photos/a-white-plate-topped-with-pasta-covered-in-sauce-w0GyGNyGo6Y",
     imageAlt: "番茄義大利麵", description: "酸甜番茄遇上柔滑奶油，簡單幾個步驟就能完成的療癒晚餐。",
     ingredients: ["義大利麵 160g", "牛番茄 2 顆", "洋蔥 1/4 顆", "鮮奶油 80ml", "蒜頭 2 瓣", "鹽與黑胡椒 適量"],
     steps: ["煮一鍋水，加入少許鹽，將義大利麵依包裝時間煮至喜歡的熟度，保留半杯煮麵水。", "番茄切丁、洋蔥切碎，蒜頭切末備用。", "平底鍋加入橄欖油，炒香蒜末與洋蔥，再放入番茄炒至軟化。", "倒入鮮奶油與少許煮麵水，加入義大利麵拌勻，以鹽和黑胡椒調味即可。"],
@@ -48,7 +48,7 @@ window.RECIPES = [
   {
     id: "lemon-honey-soda", name: "檸檬蜂蜜氣泡飲", english: "Lemon Honey Soda",
     category: "飲品", time: 5, difficulty: "簡單", servings: 1, badge: "清爽系",
-    image: "lemon-honey-soda.jpg",
+    image: "https://unsplash.com/photos/clear-drinking-glass-with-lemon-juice-TecD-1MTMiE",
     imageAlt: "檸檬氣泡飲", description: "檸檬的清香加上細緻氣泡，炎熱午後最簡單的清爽提案。",
     ingredients: ["檸檬 1/2 顆", "蜂蜜 20ml", "氣泡水 200ml", "冰塊 適量", "迷迭香 1 小枝（可省略）"],
     steps: ["檸檬洗淨，切出兩片薄片裝飾，其餘擠出檸檬汁。", "杯中加入蜂蜜與檸檬汁，攪拌至融合。", "加入冰塊，再沿杯壁緩緩倒入氣泡水。", "放入檸檬片與迷迭香裝飾，飲用前輕輕攪拌。"],
