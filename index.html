@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My Recipe Book：收藏日常料理靈感，讓每一餐都簡單又美好。">
+  <title>My Recipe Book｜把日常煮成喜歡的樣子</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/recipes.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="My Recipe Book 首頁">
+      <span class="brand-mark">♡</span><span>My Recipe Book</span>
+    </a>
+    <nav class="main-nav" aria-label="主要導覽">
+      <a class="active" href="#recipes">探索食譜</a>
+      <a href="#about">關於本站</a>
+    </nav>
+    <a class="header-note" href="#recipes">Cook something lovely <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A LITTLE BOOK OF GOOD FOOD</p>
+        <h1>把日常<br><em>煮成喜歡的樣子。</em></h1>
+        <p class="hero-description">從一人份的簡單料理，到與朋友分享的餐桌時光。<br>收藏靈感，慢慢做出屬於自己的味道。</p>
+        <a class="button button-dark" href="#recipes">找到今天的靈感 <span>↓</span></a>
+        <div class="hero-footnote"><span class="tiny-heart">♥</span> Made with love, served with joy.</div>
+      </div>
+      <div class="hero-art" role="img" aria-label="溫暖餐桌上的義大利麵與食材">
+        <div class="hero-image"></div>
+        <div class="image-sticker"><span>GOOD</span><strong>FOOD</strong><span>GOOD MOOD ✳</span></div>
+        <div class="hero-caption">SIMPLE INGREDIENTS,<br>HAPPY LITTLE MOMENTS.</div>
+      </div>
+    </section>
+
+    <section class="intro-strip" id="about">
+      <div><span class="strip-number">01</span><span>日常好好吃飯</span></div>
+      <p>好好吃飯不必太複雜，從手邊的食材開始就很好。</p>
+      <span class="strip-flower">✳</span>
+    </section>
+
+    <section class="recipes-section" id="recipes">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE RECIPE COLLECTION</p>
+          <h2>今天想吃點什麼？</h2>
+          <p class="section-subtitle">挑一道喜歡的，讓廚房成為今天最療癒的地方。</p>
+        </div>
+        <span class="recipe-count"><strong id="recipe-count">06</strong> RECIPES</span>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="搜尋料理名稱或食材…" aria-label="搜尋食譜">
+        </label>
+        <div class="filters" role="group" aria-label="食譜分類">
+          <button class="filter-chip active" data-category="全部" aria-pressed="true">全部</button>
+          <button class="filter-chip" data-category="主食" aria-pressed="false">主食</button>
+          <button class="filter-chip" data-category="輕食" aria-pressed="false">輕食</button>
+          <button class="filter-chip" data-category="甜點" aria-pressed="false">甜點</button>
+          <button class="filter-chip" data-category="飲品" aria-pressed="false">飲品</button>
+        </div>
+      </div>
+
+      <div class="recipe-grid" id="recipe-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <span>☁</span><h3>還沒有找到這道料理</h3><p>試試其他關鍵字，或切換分類看看。</p>
+        <button class="text-button" id="reset-search">清除搜尋條件 ↗</button>
+      </div>
+    </section>
+
+    <section class="quote-banner">
+      <span class="quote-mark">“</span>
+      <p>Cooking is love made visible.</p>
+      <span class="quote-credit">— A NOTE TO MYSELF</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">♡</span><span>My Recipe Book</span></a>
+    <p>把每一餐，都過成喜歡的日子。</p>
+    <span class="copyright">© 2026 MY RECIPE BOOK · MADE FOR EVERYDAY COOKING</span>
+  </footer>
+</body>
+</html>
